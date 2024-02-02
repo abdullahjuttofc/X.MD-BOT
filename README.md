@@ -1,9 +1,6 @@
-<p align="center"> 
-      <h1 align="center">X BOT MD MD V-2.00</h1>
-  <a href="https://x-md-qr-elctro-wizard.koyeb.app">
-        <p align="center">
-   <img alt="ASWIN SPARKY" height="300" src="https://i.imgur.com/Q2UNwXR.jpg">
-              </p>
+https://heroku.com/deploy?template=https://github.com/abdullahjuttofc/X.MD-BOT
+
+
   </a>
 </p>
    
