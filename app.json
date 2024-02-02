@@ -1,11 +1,11 @@
 {
-	"name": "X-BOT-MD",
-	"description": "TEAM EX-BOT-Z",
+	"name": "ZAHREELA MD",
+	"description": "A WHATSAPP USER BOT DEVELOPED BY CH ABDULLAH",
 	"keywords": [
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD",
+	"repository": "https://github.com/abdullahjuttofc/X.MD-BOT",
 	"stack": "container",
     "env": { 
 	    "MONGODB_URL": {
@@ -31,7 +31,7 @@
       "MENTION_DATA": {
             "description": "Enter your mention data here",
             "required": false,
-            "value":"X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/917012984396;https://i.imgur.com/3cMVKBk.jpeg"
+            "value":"ZAHREELA-MD;MULTI-DEVICE BOT BY CH ABDULLAH;https://wa.me/923479777161;https://i.imgur.com/3cMVKBk.jpeg"
         },
 	    "MENTION_AUDIO": {
             "description": "Enter your mention audio link here",
@@ -41,17 +41,17 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"X-BOT-MD;ASWIN SPARKY"
+            "value":"ZAHREELA-MD;CH ABDULLAH"
         },
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/XJ0D4Tq.mp4"
+            "value":"ZAHREELA-MD;CH ABDULLAH;https://i.imgur.com/XJ0D4Tq.mp4"
         },
 	    "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"917012984396"
+            "value":"923479777161"
         },
        "SESSION_ID": {
             "description": "Your MD session",
