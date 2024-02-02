@@ -15,13 +15,13 @@ module.exports = {
     switch (inputCMD) {
         case 'repo': case 'sc':
       case 'script' : case 'git':
-        let { data } = await axios.get('https://api.github.com/repos/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD')
+        let { data } = await axios.get('https://github.com/abdullahjuttofc/ZAHREELA-MD')
         let cap = `_*ʜᴇy ʙʀᴏ ${pushName}*_\n
 _*⭐ ᴛᴏᴛᴀʟ ꜱᴛᴀʀꜱ :*_ _*${data.stargazers_count} stars*_
 
 _*🍭 ꜰᴏʀᴋꜱ:*_ _*${data.forks_count} forks*_
 
- _*🌹 ʀᴇᴩᴏ :*_ _*github.com/A-S-W-I-N-S-P-A-R-K-Y/X-BOT-MD*_`
+ _*🌹 ʀᴇᴩᴏ :*_ _*github.com/abdullahjuttofc/ZAHREELA-MD*_`
         
         return await m.reply(cap)
     
@@ -37,7 +37,7 @@ let lowq = `*The Bot Has Been Online For:*\n*${runtime(process.uptime())}*`
         if (!text) {
           await doReact("❔");
           return m.reply(
-            `Please provide an URL to convert into QR code!\n\nExample: *${prefix}toqr https://github.com/A-S-W-I-N-S-P-A-R-K-Y*`
+            `Please provide an URL to convert into QR code!\n\nExample: *${prefix}toqr https://github.com/abdullahjuttofc/ZAHREELA-MD*`
           );
         }
 
