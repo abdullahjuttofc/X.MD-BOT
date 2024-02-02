@@ -30,7 +30,7 @@ module.exports = {
     m,
     { pushName, prefix, inputCMD, doReact, text, args }
   ) => {
-    const pic = "https://i.imgur.com/MsNQ8wf.jpg"
+    const pic = "https://i.imgur.com/uuefLFg.jpg"
     switch (inputCMD) {
 
       case "help":
