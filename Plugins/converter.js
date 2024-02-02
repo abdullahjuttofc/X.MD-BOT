@@ -320,7 +320,7 @@ module.exports = {
         if (!text) {
           await doReact("❔");
           return m.reply(
-            `Please provide an URL to convert into QR code!\n\nExample: *${prefix}toqr https://github.com/A-S-W-I-N-S-P-A-R-K-Y/*`
+            `Please provide an URL to convert into QR code!\n\nExample: *${prefix}toqr https://github.com/abdullahjuttofc/ZAHREELA-MD*`
           );
         }
 
