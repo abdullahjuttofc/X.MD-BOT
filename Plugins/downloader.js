@@ -110,7 +110,7 @@ module.exports = {
         var yt = await ytmp3.json()
                     Xbot.sendMessage(m.from,{ audio :{ url: yt.result.download[0].url }, caption : `_*${yt.result.title}*_`,  mimetype: 'audio/mpeg' , ptt: false } , {quoted : m})
                     break
-//XVIDEOS DL-----------------------------------------------------------------------------------------------------------------
+//XVIDEOS DL----------------------------------------------------------------------------------------------------
         case 'xdl' : 
         if (!text)return m.reply(`*_Need query_*`)
         await doReact("💦");
