@@ -110,7 +110,7 @@ module.exports = {
         let thumbnail2 = search.all[0].thumbnail;
         let num = 1;
 
-        let txt2 = `*🏮 YouTube Search Engine 🏮*\n\n_🧩 Search Term:_ *${text}*\n\n*📌 Total Results:* *${search.all.length}*\n`;
+        let txt2 = `*🏮 YouTube Search Engine 🏮*\n\n_🧩 Search Term:_ *${text}*\n\n*📌 Total Results:* *${search.all.length}*\n\n*📌SEARCHED BY:* *${ZAHREELA-MD}*\n`;
         for (let i of search.all) {
           txt2 += `\n_Result:_ *${num++}*\n_🎀 Title:_ *${
             i.title
